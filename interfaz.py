@@ -27,9 +27,7 @@ print(Style.BRIGHT+Fore.WHITE+"Bienvenido: ")
 
 print()
 
-run=True
-
-while run==True:
+while True:
     print()
 
     opciones = " Menú de Opciones "
@@ -60,5 +58,3 @@ while run==True:
         nash_v2.main()
 
     print()
-    
-    run=bool(int(input("Escriba 1 para acceder al menú: ")))

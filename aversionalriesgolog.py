@@ -151,6 +151,3 @@ def main():
 	plt.show()
 
 	input()
-
-if __name__ == "__main__":
-	main()
